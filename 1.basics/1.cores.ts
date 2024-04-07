@@ -6,6 +6,8 @@ const anObject: { title: string } = { title: 'Typescript Fundamentals' }
 const anArray: string[] = ['A', 'B', 'C']
 const aTuple: [string, number] = ['abc', 1] // Array with fixed length and types for each index
 
+aTuple.push('blah')
+
 enum ANENUM {
   PENDING,
   PROCESSING,
